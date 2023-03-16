@@ -6,7 +6,7 @@ public class CarClass
    //DataMembers for the class
   int model;    
   String color;
-  int reg;
+  int reg=2019;
   int amount=90000;
    
   //function members for the class
