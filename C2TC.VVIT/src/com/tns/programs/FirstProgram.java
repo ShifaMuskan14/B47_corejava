@@ -1,4 +1,4 @@
-package com.tns.project;
+package com.tns.programs;
 
 public class FirstProgram 
 {
