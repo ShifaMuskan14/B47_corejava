@@ -1,5 +1,7 @@
 package com.tns.programs;
 
+import java.util.Scanner;
+
 public class Executor 
 {
   public static void main(String[] args) 
@@ -9,7 +11,8 @@ public class Executor
 	ob.backward();
 	ob.stop();
 	
-	System.out.println("reg is "+ob.reg);
-	System.out.println("amount is "+ob.amount);
+	Scanner sc=new Scanner(System.in);
+	/*System.out.println("reg is "+ob.reg);
+	System.out.println("amount is "+ob.amount);*/
   }
 }
