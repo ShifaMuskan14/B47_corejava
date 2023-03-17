@@ -12,6 +12,8 @@ public class Executor
 	ob.stop();
 	
 	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter: ");
+	int reg=sc.nextInt();
 	/*System.out.println("reg is "+ob.reg);
 	System.out.println("amount is "+ob.amount);*/
   }
