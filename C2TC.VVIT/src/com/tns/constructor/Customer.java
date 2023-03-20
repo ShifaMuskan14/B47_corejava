@@ -18,6 +18,8 @@ public class Customer
 	this.customerName = customerName;
 	this.customerId = customerId;
 	this.customerCity = customerCity;
+	System.out.println("parameterized const");
+	System.out.println("name"+" " +customerName+"id" +" " + customerId+"city"+" "+customerCity);
   }
 
 public String getCustomerName() 
