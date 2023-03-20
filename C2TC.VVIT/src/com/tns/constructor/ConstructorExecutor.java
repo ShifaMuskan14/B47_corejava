@@ -1,12 +1,12 @@
 package com.tns.constructor;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class ConstructorExecutor 
 {
   public static void main(String[] args) 
   {
-	Scanner sc=new Scanner(System.in);
+	/*Scanner sc=new Scanner(System.in);
 	String name,city;
 	int id;
 	
@@ -17,13 +17,13 @@ public class ConstructorExecutor
 	id=sc.nextInt();
 	
 	System.out.println("Enter customer city: ");
-	city=sc.next();
+	city=sc.next();*/
 		
-	Customer ob=new Customer();
-	ob.setCustomerName(name);
-	ob.setCustomerId(id);
-	ob.setCustomerCity(city);
+	Customer ob=new Customer("SHIFA",48,"BANGALORE");
+	/*ob.setCustomerName("SHIFA");
+	ob.setCustomerId(48);
+	ob.setCustomerCity("BANGALORE");*/
 	
-	System.out.println(name+ " " +id+" "+city);
+	System.out.println(ob.getCustomerName()+ " " +ob.getCustomerId()+" "+ob.getCustomerCity());
   }
 }
