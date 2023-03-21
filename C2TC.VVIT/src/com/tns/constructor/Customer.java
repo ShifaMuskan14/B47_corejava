@@ -22,7 +22,7 @@ public class Customer
 	System.out.println("name"+" " +customerName+"id" +" " + customerId+"city"+" "+customerCity);
   }
 
-public String getCustomerName() 
+  public String getCustomerName() 
   {
 	return customerName;
   }
