@@ -10,8 +10,6 @@ public class SubClass
 	b.methodPublic();
 	//b.methodDefault();
 	//b.methodProtected();
-	//b.methodPrivate();
-	
-	
+	//b.methodPrivate();	
   }
 }
