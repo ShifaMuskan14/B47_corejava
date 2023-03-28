@@ -7,5 +7,9 @@ public class Bus implements VehicleTypes.Vehicle
 	{
 		return 6;
 	}
-	
+	public static void main(String[] args) 
+	{
+		Bus b=new Bus();
+		System.out.println(b.getNoofWheels());
+	}
 }
