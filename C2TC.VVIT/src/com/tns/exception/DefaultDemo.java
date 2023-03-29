@@ -12,7 +12,7 @@ public class DefaultDemo
    }
    catch(NullPointerException Ne)
    {
-	   System.out.println("There is a null poiner exception");
+	   System.out.println("Cannot print as there is a null poiner exception");
    }
    System.out.println("Exception handled");
  }
