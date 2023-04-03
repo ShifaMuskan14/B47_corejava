@@ -1,6 +1,6 @@
 package com.tns.multithreading;
 
-public class ThreadExcecutor 
+public class ThreadOneExcecutor 
 {
   public static void main(String[] args) 
   {
