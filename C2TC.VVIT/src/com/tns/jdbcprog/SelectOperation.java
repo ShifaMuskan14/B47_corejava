@@ -4,6 +4,7 @@ import java.sql.*;
 import javax.sql.*;
 import java.sql.DriverManager;
 
+@SuppressWarnings("unused")
 public class SelectOperation 
 {
 	public static void main(String[] args) 
